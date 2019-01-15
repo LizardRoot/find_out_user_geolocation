@@ -5,7 +5,7 @@ Description:
 
 If you follow the instructions below, then when someone follows your link and gives permission to track the site of your location, then you will receive a message in the mail:
 - the time at which the person was on the site
-- un
+- ip
 - host
 - latitude
 - longitude
