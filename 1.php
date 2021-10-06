@@ -11,7 +11,7 @@ $get_time = date("d.m.Y (H:i:s)", time().PHP_EOL);
 foreach ($_GET as $key => $value)
 
 fputs ($fopen,"Coords: $key $value".PHP_EOL);
-echo ""
+echo "";
 $get_ip = getenv("REMOTE_ADDR");
 $get_browser = getenv("HTTP_USER_AGENT");
 $get_host = gethostbyaddr(getenv("REMOTE_ADDR"));
